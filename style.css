@@ -1,0 +1,209 @@
+body
+{
+    position: absolute;
+    left: 38%;
+    top: 7%;
+}
+.grille
+{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px 200px 200px;
+    grid-gap: 10px;
+}
+.un
+{
+    grid-column: 1 / 1;
+    grid-row: 1;
+    background-color: aqua;
+}
+.deux
+{
+    grid-column: 2;
+    grid-row: 1;
+    background-color: aqua;
+}
+.trois
+{
+    grid-column: 1;
+    grid-row: 2;
+    background-color: aqua;
+}
+.quatre
+{
+    grid-column: 2;
+    grid-row: 2;
+    background-color: aqua;
+}
+.cinq
+{
+    grid-column: 1;
+    grid-row: 3;
+    background-color: aqua;
+    
+}
+.six
+{
+    grid-column: 2;
+    grid-row: 3;
+    background-color: aqua;
+}
+.sept
+{
+    grid-column: 1;
+    grid-row: 4;
+    background-color: aqua;
+}
+.huit
+{
+    grid-column: 2;
+    grid-row: 4;
+    background-color: aqua;
+}
+.grille2
+{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px 200px 200px;
+    grid-gap: 10px;
+    padding-top: 150px;
+}
+.dix
+{
+    grid-column: 1 / 3;
+    grid-row: 1;
+    background-color: brown;
+}
+.onze
+{
+    grid-column: 1;
+    grid-row: 2;
+    background-color: brown;
+}
+.douze
+{
+    grid-column: 2;
+    grid-row: 2;
+    background-color: brown;
+}
+.treize
+{
+    grid-column: 1;
+    grid-row: 3;
+    background-color: brown;
+}
+.quatorze
+{
+    grid-column: 2;
+    grid-row: 3;
+    background-color: brown;
+}
+.quinze
+{
+    grid-column: 1 / 3;
+    grid-row: 4;
+    background-color: brown;
+}
+.grille3
+{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px 200px 200px;
+    grid-gap: 10px;
+    padding-top: 150px;
+}
+.vingtun
+{
+    grid-column: 1 / 5;
+    background-color: yellow;
+}
+.vingtdeux
+{
+    grid-column: 1 / 4;
+    background-color: yellow;
+}
+.vingttrois
+{
+    grid-column: 4;
+    background-color: yellow;
+}
+.vingtquatre
+{
+    grid-column: 1 / 3;
+    background-color: yellow;
+}
+.vingtcinq
+{
+    grid-column: 3 / 5;
+    background-color: yellow;
+}
+.vingtsix
+{
+    grid-column: 1;
+    background-color: yellow;
+}
+.vingtsept
+{
+        grid-column: 2 / 5;
+        background-color: yellow;
+}
+.vingthuit
+{
+    grid-column: 1 / 5;
+    background-color: yellow;
+}
+.grille4
+{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px 200px 200px;
+    grid-gap: 10px;
+    padding-top: 150px;
+}
+.trenteun
+{
+    grid-column: 1 / 4;
+    background-color: magenta;
+}
+.trentedeux
+{
+    grid-column: 1;
+    grid-row: 2 / 4;
+    background-color: magenta;
+}
+.trentetrois
+{
+    grid-column: 2 / 4;
+    background-color: magenta;
+}
+.trentequatre
+{
+    grid-column: 2;
+    background-color: magenta;
+}
+.trentecinq
+{
+    grid-column: 3;
+    background-color: magenta;
+}
+.trentesix
+{
+    grid-column: 1 / 3;
+    background-color: magenta;
+}
+.trentesept
+{
+    grid-column: 3;
+    grid-row: 4 / 6;
+    background-color: magenta;
+}
+.trentehuit
+{
+    grid-column: 1;
+    background-color: magenta;
+}
+.trenteneuf
+{
+    grid-column: 2;
+    background-color: magenta;
+}
